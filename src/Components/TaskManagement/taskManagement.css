@@ -1,0 +1,81 @@
+.task-management-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.add-task-container,
+.tasks-container {
+    margin-bottom: 20px;
+}
+
+.add-task-container h2,
+.tasks-container h2 {
+    margin-bottom: 10px;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.input-group input[type="text"],
+.input-group input[type="date"] {
+    width: calc(20% - 10px);
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-group input[type="text"]:last-child,
+.input-group input[type="date"]:last-child {
+    margin-right: 0;
+}
+
+.add-task-button,
+.save-task-button,
+.edit-task-button,
+.delete-task-button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-task-button:hover,
+.save-task-button:hover,
+.edit-task-button:hover,
+.delete-task-button:hover {
+    background-color: #0056b3;
+}
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.task-details {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.task-details span {
+    margin-right: 10px;
+}
+
+.task-actions button {
+    margin-right: 5px;
+}
